@@ -1,0 +1,29 @@
+{
+  "name": "number-to-chinese-characters",
+  "version": "1.0.0",
+  "description": "number to Chinese characters",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "rollup -c"
+  },
+  "author": "zhangyu1818",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhangyu1818/number-to-chinese-characters.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.6.0",
+    "@types/jest": "^24.0.18",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-clear": "^2.0.7",
+    "rollup-plugin-uglify": "^6.0.3"
+  },
+  "targets": "> 0.25%, not dead"
+}
